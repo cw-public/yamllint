@@ -45,3 +45,4 @@ rules:
     allow-quoted-quotes: true           
     check-keys: true                    
   truthy: enable
+  trailing-spaces: enable
