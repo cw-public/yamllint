@@ -29,7 +29,7 @@ rules:
   octal-values: enable
   quoted-strings:
     quote-type: double                  
-    required: only-when-needed          
+    required: true          
     extra-required:                     
       - '\{\{.*\}\}'                   
       - '^[0-9]+\.[0-9]+$'             
