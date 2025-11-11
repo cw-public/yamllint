@@ -29,12 +29,12 @@ rules:
   octal-values: enable
   quoted-strings:
     quote-type: double                  
-    required: true          
-    #extra-required:                     
-    #  - '\{\{.*\}\}'                   
-    #  - '^[0-9]+\.[0-9]+$'             
-    #  - '^[0-9]+(:[0-9]+)+$'           
-    #  - '^0[0-9]+$'                     
+    required: only-when-needed          
+    extra-required:                     
+      - '\{\{.*\}\}'                   
+      - '^[0-9]+\.[0-9]+$'             
+      - '^[0-9]+(:[0-9]+)+$'           
+      - '^0[0-9]+$'                     
     extra-allowed: []                   
     allow-quoted-quotes: true           
     check-keys: true                    
