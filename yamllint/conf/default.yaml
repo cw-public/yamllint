@@ -30,11 +30,11 @@ rules:
   quoted-strings:
     quote-type: double                  
     required: true          
-    extra-required:                     
-      - '\{\{.*\}\}'                   
-      - '^[0-9]+\.[0-9]+$'             
-      - '^[0-9]+(:[0-9]+)+$'           
-      - '^0[0-9]+$'                     
+    #extra-required:                     
+    #  - '\{\{.*\}\}'                   
+    #  - '^[0-9]+\.[0-9]+$'             
+    #  - '^[0-9]+(:[0-9]+)+$'           
+    #  - '^0[0-9]+$'                     
     extra-allowed: []                   
     allow-quoted-quotes: true           
     check-keys: true                    
