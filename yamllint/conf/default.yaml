@@ -42,8 +42,7 @@ rules:
       - '^0[0-9]+$'                     
     extra-allowed:
       - '^\{.*\}$'
-      - '.*\\.*'
-      - '^\[[ ]*(\"[^\"]*\"[ ]*,[ ]*)*(\"[^\"]*\")[ ]*\]$'           
+      - '.*\\.*'          
     allow-quoted-quotes: true     
     check-keys: false                 
   truthy: enable
