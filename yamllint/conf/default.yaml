@@ -43,8 +43,8 @@ rules:
     extra-allowed:
       - '^\{.*\}$'
       - '.*\\.*'
-      - '^\[\".*\"\]$'                
-    allow-quoted-quotes: true           
+      - '^\[[ ]*(\"[^\"]*\"[ ]*,[ ]*)*(\"[^\"]*\")[ ]*\]$'           
+    allow-quoted-quotes: true     
     check-keys: false                 
   truthy: enable
   trailing-spaces: enable
