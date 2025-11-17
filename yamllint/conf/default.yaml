@@ -4,9 +4,9 @@ rules:
   anchors: enable
   braces:
     forbid: false
-    min-spaces-inside: 0
+    min-spaces-inside: 1
     max-spaces-inside: 1
-    min-spaces-inside-empty: 0
+    min-spaces-inside-empty: 1
     max-spaces-inside-empty: 1
   brackets: enable
   colons: enable
